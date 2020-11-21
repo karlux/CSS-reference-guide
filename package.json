@@ -1,0 +1,24 @@
+{
+  "name": "reference-guide",
+  "version": "1.0.0",
+  "description": "Guía de referencia para CSS vanilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlux/CSS-reference-guide.git"
+  },
+  "keywords": [
+    "css",
+    "estilos",
+    "diseño"
+  ],
+  "author": "lumusitec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlux/CSS-reference-guide/issues"
+  },
+  "homepage": "https://github.com/karlux/CSS-reference-guide#readme",
+}
