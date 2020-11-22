@@ -10,16 +10,6 @@ El flujo normal html lee línea a línea cada instrucción y se posiciona en la 
 ## Absolute
 Con este valor, el espacio original de la caja **NO** se conserva. Cuando movemos la caja usando las nuevas propiedades que nos da como top o left, la caja cambia su posición y el espacio original que ocupaba se pierde. Con esto, los otros elementos ocuparán ese vacío nuevo que quedó.
 
-**Al posicionar una caja, obtenemos nuevas propiedades:**
-* top
-* right
-* left
-* bottom
-* z-index
-### Prioridades (top, left, right, bottom)
-Las propiedades top y left tienen prioridad sobre bottom y right. Una vez que se establecen top y/o left ya no se tiene en cuenta lo que se ponga de bottom y right.
-Recordar además, que se admiten valores negativos como **top: -50px;**
-
 Observemos en el siguiente ejemplo, cómo al poner en caja 2 una posición absoluta, esta caja pierde su lugar y es ocupado por la caja 3 y 4 que mueven. La caja 2 queda detrás de la caja 3.
 ```css
 .caja1,
