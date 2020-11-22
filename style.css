@@ -5,17 +5,14 @@
     font-size: 1.5em;
 }
 
-
-body {
-    padding-top: 100px;
-}
-
 p {
     background-color: lightblue;
 }
 
-.texto-fixed {
+.texto-sticky {
     background: red;
-    position: fixed;
-    margin: -100px auto;
+    position: sticky;
+    top: 0;
+    /*Cuando hacemos scroll y llegamos a su posicion top 0,
+    este elemento comienza a comportarse como fixed*/
 }

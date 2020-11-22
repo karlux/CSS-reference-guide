@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS - Reference guide</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+# Propiedad de caja: position
+El flujo normal html lee línea a línea cada instrucción y se posiciona en la página de esa forma. Position viene a alterar ese flujo.
+
+**Valores posibles:**
+* static (valor por default - con esto no está posicionado)
+* relative
+* absolute
+* fixed
+* **sticky**
+### Sticky
+Sticky es muy similar a **relative** ya que por más que se mueva de posición, conserva su espacio original (no es ocupado por otros elementos).
+ Además, es parecido al **fixed**, pero comienza a comportarse como tal, cuando llegamos a la posición que le establecemos.
+
+### Ejemplo de posicionado sticky
+```html
 <body>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Pariatur sequi numquam vitae deleniti sapiente consequatur dolore
@@ -32,4 +38,17 @@
         recusandae qui quia.
    </p>
 </body>
-</html>
+```
+```css
+p {
+    background-color: lightblue;
+}
+
+.texto-sticky {
+    background: red;
+    position: sticky;
+    top: 0;
+    /*Cuando hacemos scroll y llegamos a su posicion top 0,
+    este elemento comienza a comportarse como fixed*/
+}
+```
