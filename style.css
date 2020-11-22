@@ -1,27 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+h3 {
+    font-family: 'Xanh Mono', monospace;
+    font-size: 2em;
+
+}
+
 .caja1,
 .caja2,
 .caja3,
 .caja4 {
-    background: rgba(50, 120, 50, 1);
-    width: 200px;
-    height: 200px;
-    box-sizing: content-box;
-    display: inline-block;
-    position: relative;
+    width: 150px;
+    height: 150px;
 }
 
-.caja1:hover {
-    outline: 10px solid rgba(0, 50, 50, 1);
+.caja1 {
+    background: red;
 }
 
-.caja2:hover {
-    outline: 10px solid rgba(100, 50, 50, 1);
+.caja2 {
+    background: blue;
 }
 
-.caja3:hover {
-    border: 10px solid rgba(0, 50, 50, 1);
+.caja3 {
+    background: green;
 }
 
-.caja4:hover {
-    border: 10px solid rgba(100, 50, 50, 1);
+.caja4 {
+    background: orange;
 }
