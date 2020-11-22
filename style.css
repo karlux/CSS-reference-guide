@@ -2,30 +2,66 @@
 
 h3 {
     font-family: 'Xanh Mono', monospace;
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 
-.caja1,
-.caja2,
-.caja3,
-.caja4 {
-    width: 150px;
-    height: 150px;
+div {
+    /*todos los div*/
+    background: green;
+    position: absolute;
+    /*todos con position absolute*/
+}
+
+div div {
+    /*todos los div dentro del div contenedor*/
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+.contenedor {
+    position: relative;
+    margin: 50px auto;
+    /*Se posiciona como relative
+     para que se ocupe el lugar original
+     y tome el margin en el eje x dado (auto)
+     Además, al posicionarse, los hijos lo tomarán como 
+     referencia en lugar de tomar al viweport*/
+    border: 4px solid red;
+    height: 450px;
+    width: 450px;
 }
 
 .caja1 {
-    background: red;
+    top: 0;
+    /*pegado al top del contenedor*/
 }
 
 .caja2 {
-    background: blue;
+    top: 0;
+    /*pegado al top del contenedor*/
+    right: 0;
+    /*pegado a la derecha*/
 }
 
 .caja3 {
-    background: green;
+    bottom: 0;
+    /*pegado al bottom del contenedor*/
+    right: 0;
+    /*pegado a la derecha*/
 }
 
 .caja4 {
-    background: orange;
+    bottom: 0;
+    /*pegado al bottom del contenedor*/
+}
+
+.caja5 {
+    /*(tamaño del padre / 2) - (tamaño del hijo / 2)*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }

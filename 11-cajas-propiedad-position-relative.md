@@ -3,7 +3,7 @@ El flujo normal html lee línea a línea cada instrucción y se posiciona en la 
 
 **Valores posibles:**
 * static (valor por default - con esto no está posicionado)
-* relative
+* **relative**
 * absolute
 * fixed
 * sticky

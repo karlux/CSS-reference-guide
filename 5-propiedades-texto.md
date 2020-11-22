@@ -21,5 +21,6 @@ Existen otras propiedades, pero no son útiles para nada, prácticamente.
     */
     text-decoration: none;/*útil para enlaces, quita el subrayado*/
     list-style: none; /*útil para listas*/
+    opacity: .5; /*Se puede aplicar a cualquier caja*/
 }
 ```
