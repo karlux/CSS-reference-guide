@@ -1,0 +1,27 @@
+.caja1,
+.caja2,
+.caja3,
+.caja4 {
+    background: rgba(50, 120, 50, 1);
+    width: 200px;
+    height: 200px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+}
+
+.caja1:hover {
+    outline: 10px solid rgba(0, 50, 50, 1);
+}
+
+.caja2:hover {
+    outline: 10px solid rgba(100, 50, 50, 1);
+}
+
+.caja3:hover {
+    border: 10px solid rgba(0, 50, 50, 1);
+}
+
+.caja4:hover {
+    border: 10px solid rgba(100, 50, 50, 1);
+}
