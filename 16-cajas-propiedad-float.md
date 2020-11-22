@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS - Reference guide</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+# Propiedad de cajas: Float
+Esta propiedad era muy utilizado anteriormente, pero actualmente quedó en desuso por otras prácticas mejores.
+De todas formas, hay un uso que se mantiene actualmente. Este se trata de envolver una imagen con texto.
+
+##Ejemplo del único uso recomendable:
+Se trabaja dentro de un contenedor. La imagen se coloca primero. 
+A contnuación, colocamos el texto sin etiqueta.
+### html
+```html
 <body>
     <div class="container">
-        <img src="https://cnnespanol.cnn.com/wp-content/uploads/2019/12/mejores-imagenes-del-ancc83o-noticias-2019-galeria10.jpg?quality=100&strip=info&w=320&h=240&crop=1" alt="imagen">
+        <img src="imagen" alt="imagen">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Quaerat delectus omnis praesentium, aspernatur quam provident. 
         Corrupti quibusdam perferendis, officia suscipit maxime corporis
@@ -24,4 +24,23 @@
         odit quae iusto commodi est earum? Voluptas, ipsa.
     </div>
 </body>
-</html>
+```
+### CSS
+
+```css
+.container {
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid black;
+    width: 50%;
+    padding: 20px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+```
+### Resultado:
+![imagen envuelta por texto](unico-uso-float.png)

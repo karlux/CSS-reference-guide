@@ -2,17 +2,19 @@
 
 * {
     font-family: 'Xanh Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-p {
-    background-color: lightblue;
+.container {
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid black;
+    width: 50%;
+    padding: 20px;
 }
 
-.texto-sticky {
-    background: red;
-    position: sticky;
-    top: 0;
-    /*Cuando hacemos scroll y llegamos a su posicion top 0,
-    este elemento comienza a comportarse como fixed*/
+img {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
 }

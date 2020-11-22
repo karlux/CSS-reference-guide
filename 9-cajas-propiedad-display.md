@@ -6,12 +6,12 @@ Para cambiar el tipo de una determinada caja, podemos utilizar la propiedad "dis
 * inline
 * block
 * inline-block
-* table
-* inline-table
-* list-item
-* table-cell
-* table-row
-* table-column
+* inline-table (Ídem al anterior, pero en línea)
+* list-item (Se comporta como listas html - **ul** / **ol**)
+* table (Se comporta como la tabla que ya conocemos de html) ***deprecated***
+* table-cell (Se comporta como una celda de tabla) ***deprecated***
+* table-row (Se comporta como una fila de tabla) ***deprecated***
+* table-column (Se comporta como una columna de tabla) ***deprecated***
 * flex
 * grid
 * inherit
