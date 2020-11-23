@@ -5,16 +5,10 @@
     font-size: 1em;
 }
 
-.container {
-    margin: auto;
-    margin-top: 50px;
-    border: 5px solid black;
-    width: 50%;
-    padding: 20px;
+p::before {
+    content: "Hola ";
 }
 
-img {
-    float: left;
-    width: 150px;
-    margin-right: 10px;
+p::after {
+    content: ", bienvenido!"
 }
