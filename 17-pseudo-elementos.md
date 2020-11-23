@@ -9,7 +9,7 @@ elemento::pseudo-elemento {
 }
 ```
 
-Los más usados son:
+**Los más usados son:**
  * ::first-line (funciona con block) - forma parte del DOM.
  * ::first-letter (funciona con block) - forma parte del DOM.
  * ::placeholder (permite modificar placeholder de inputs de tipo texto)

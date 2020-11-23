@@ -5,10 +5,12 @@
     font-size: 1em;
 }
 
-p::before {
-    content: "Hola ";
+b:lang(es) {
+    background: red;
+    color: white;
 }
 
-p::after {
-    content: ", bienvenido!"
+b:lang(en) {
+    background: white;
+    color: red;
 }
