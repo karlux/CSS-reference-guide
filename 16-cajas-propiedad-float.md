@@ -2,7 +2,7 @@
 Esta propiedad era muy utilizado anteriormente, pero actualmente quedó en desuso por otras prácticas mejores.
 De todas formas, hay un uso que se mantiene actualmente. Este se trata de envolver una imagen con texto.
 
-##Ejemplo del único uso recomendable:
+## Ejemplo del único uso recomendable:
 Se trabaja dentro de un contenedor. La imagen se coloca primero. 
 A contnuación, colocamos el texto sin etiqueta.
 ### html
