@@ -5,19 +5,11 @@
     font-size: 1em;
 }
 
-div {
-    display: flex;
+.caja {
+    margin: 30px;
     border: 2px solid red;
+    background: lightblue;
     width: 300px;
     height: 400px;
-}
-
-img {
-    object-fit: cover;
-    object-position: right;
-    transition: all 1s;
-}
-
-img:hover {
-    object-position: left;
+    cursor: pointer;
 }
